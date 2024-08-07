@@ -3,125 +3,136 @@
 #https://linkedin.com/in/alandoe
 
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
 
-    # Profile information
-    name: Adelyn Flowers
-    tagline: Software Engineer
-    avatar: profilephoto.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Adelyn Flowers
+  tagline: Software Engineer
+  avatar: profilephoto.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: adelyn.flowers@gmail.com
-    phone: (850) 797-1057
-    timezone: America/New York
-    citizenship:
-    linkedin: adelynflowers
-    xing: 
-    github: adelynflowers
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: 
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: assets/resume.pdf
+  # Sidebar links
+  email: adelyn.flowers@gmail.com
+  phone: (850) 797-1057
+  timezone: America/New York
+  citizenship:
+  linkedin: adelynflowers
+  xing:
+  github: adelynflowers
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf: assets/resume.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
 
-    interests:
-      title: Interests
-      info:
-        - item: Birdwatching
-          link: https://ebird.org/profile/MzU3NDY0Nw
+  interests:
+    title: Interests
+    info:
+      - item: Birdwatching
+        link: https://ebird.org/profile/MzU3NDY0Nw
 
-        - item: Wildlife Photography
-          link:
+      - item: Wildlife Photography
+        link:
+
+      - item: RPGs/Wargaming
+        link: https://adelynflowers.github.io/five-minute-adventures/
 
 career-profile:
-    title: About me
-    summary: |
-      A tinkerer at heart, I bring ample curiosity and technical expertise with domain knowledge from agriculture all the way to streaming video. My primary languages are Python and C++ with AWS cloud. I've written data pipelines, desktop apps, and APIs with a healthy dose of infrastructure management and requirements elicitation. 
-      
-      I'm comfortable working in both Software and Data engineering roles, and currently searching for positions that will allow me to tackle hard problems and work close to the business. Outside of work I love wildlife photography, especially taking pictures of birds! You can take a look at my eBird account and photos [here](https://ebird.org/profile/MzU3NDY0Nw) if you like that kind of thing :)
+  title: About me
+  summary: |
+    A tinkerer at heart, I bring ample curiosity and technical expertise with domain knowledge from agriculture all the way to streaming video. My primary languages are Python, C++, and Java with AWS or Azure cloud. I've written data pipelines, desktop apps, and APIs with a healthy dose of infrastructure management and requirements elicitation. 
+
+    I'm comfortable working anywhere in the stack, from ops all the way to UI. Outside of work I love wildlife photography, especially taking pictures of birds! You can take a look at my eBird account and photos [here](https://ebird.org/profile/MzU3NDY0Nw). I also love playing and writing RPGs and wargames, you can find my first attempt at writing an RPG [here](https://adelynflowers.github.io/five-minute-adventures/).
 education:
-    title: Education
-    info:
-      - degree: MA in Economics
-        university: CSU - Sacramento
-        time: 2020 - 2022
-        details: 
-      - degree: BS in Software Engineering
-        university: BYU - Idaho
-        time: 2016 - 2019
-        details:
+  title: Education
+  info:
+    - degree: MA in Economics
+      university: CSU - Sacramento
+      time: 2020 - 2022
+      details:
+    - degree: BS in Software Engineering
+      university: BYU - Idaho
+      time: 2016 - 2019
+      details:
 experiences:
-    title: Experience
-    info:
-      - role: Software Engineer
-        time: 2022 - Present
-        company: Xperi TiVo, NC
-        details: |
-          _Stack_: Python, Spark, Airflow, AWS
+  title: Experience
+  info:
+    - role: Software Engineer
+      time: 2024 - Present
+      company: SAS Institute
+      details: |
+        _Stack_: Java, Python, Go, Azure
 
-          As a software engineer embedded within a data science team I build apps, 
-          packages and CLI tools to help data scientists focus on work that matters. 
-          This includes a heavy dose of writing ETL pipelines and managing 
-          infrastructure like package servers, databases, and open source BI tools.
+        I work on the Ops team at SAS, whose role is a bit broader than DevOps teams at other organizations. I handle
+        everything from build pipelines and designing backend applications to security hardening and modernizing legacy apps.
+    - role: Software Engineer
+      time: 2022 - 2024
+      company: Xperi TiVo, NC
+      details: |
+        _Stack_: Python, Spark, Airflow, AWS
 
-          _Notable Projects_
-            - `the miss report`. A web app that identifies shortcomings 
-            in our video recommendations, including automatic outlier detection
-            and daily emails with suggestions for A/B tests. Suggestions made by the
-            miss report have improved customer product performance by over 30% this year.
-            - `uvh`. A desktop application that simplifies and aggregates information
-            from multiple internal APIs in a clean and functional interfaces. This app saw
-            universal adoption amongst customer-facing employees, and substantially reduced
-            time to ticket resolution.
-            - `emr-utils`. A python package and CLI tool to simplify launching and interacting
-            with Amazon EMR. Allows data scientists to define and save their most common configurations,
-            easily utilize spark connect for local development, and version control EMR configurations for
-            future use. This package has greatly simplified day-to-day work for the team.
-      - role: Research Assistant
-        time: 2020 - 2022
-        company: CSU - Sacramento, CA
-        details: |
-          _Stack_: C++, Python, Javascript
+        As a software engineer embedded within a data science team I built apps, 
+        packages and CLI tools to help data scientists focus on work that matters. 
+        This includes a heavy dose of writing ETL pipelines and managing 
+        infrastructure like package servers, databases, and open source BI tools.
 
-          On a small team dedicated to preserving California citrus from a frightening disease, Huanglongbing. I took
-          the lead on designing and coding a model of disease spread. The model allowed for the testing of
-          multiple intervention strategies, cooperation levels, grower preferences, and economic variables.
-          I used these results to lead author a research paper, whose results we used as the source of outreach
-          to CA citrus growers. This work continues today, with the original model still serving as a cornerstone for
-          new research.
+        _Notable Projects_
+          - `the miss report`. A web app that identifies shortcomings 
+          in our video recommendations, including automatic outlier detection
+          and daily emails with suggestions for A/B tests. Suggestions made by the
+          miss report have improved customer product performance by over 30% this year.
+          - `uvh`. A desktop application that simplifies and aggregates information
+          from multiple internal APIs in a clean and functional interfaces. This app saw
+          universal adoption amongst customer-facing employees, and substantially reduced
+          time to ticket resolution.
+          - `emr-utils`. A python package and CLI tool to simplify launching and interacting
+          with Amazon EMR. Allows data scientists to define and save their most common configurations,
+          easily utilize spark connect for local development, and version control EMR configurations for
+          future use. This package has greatly simplified day-to-day work for the team.
+    - role: Research Assistant
+      time: 2020 - 2022
+      company: CSU - Sacramento, CA
+      details: |
+        _Stack_: C++, Python, Javascript
 
-          _Notable Projects_
-            - `hlb_model`. A cellular automata model of disease spread. Written from scratch in C++, the model
-            was built to be run in parallel on HPCs that the team received from a grant.
-            - `hlb cost estimator`. An interactive outreach website that helped farmers learn how to 
-            slow the spread of HLB and plot how different intervention strategies that would impact
-            their short and long-term profits.
-            - `scheduler`. A python package/CLI tool for scheduling job submission to our IBM HPC. Abstracted
-            technical details from team members with minimal programming experience.
-      - role: Software Engineering Intern
-        time: 2016 - 2020
-        company: Quandary Escape Rooms, CA
-        details: |
-          _Stack_: C++, C#, Python
+        On a small team dedicated to preserving California citrus from a frightening disease, Huanglongbing. I took
+        the lead on designing and coding a model of disease spread. The model allowed for the testing of
+        multiple intervention strategies, cooperation levels, grower preferences, and economic variables.
+        I used these results to lead author a research paper, whose results we used as the source of outreach
+        to CA citrus growers. This work continues today, with the original model still serving as a cornerstone for
+        new research.
 
-          Over the three years I was an intern at Quandary, I got to get my hands dirty writing
-          customer-facing code. Initially brought on to help write C++ programs for the microcontrollers that served as the core escape room experience, my responsibilities expanded to include writing employee facing software and automating arduous business
-          tasks.
+        _Notable Projects_
+          - `hlb_model`. A cellular automata model of disease spread. Written from scratch in C++, the model
+          was built to be run in parallel on HPCs that the team received from a grant.
+          - `hlb cost estimator`. An interactive outreach website that helped farmers learn how to 
+          slow the spread of HLB and plot how different intervention strategies that would impact
+          their short and long-term profits.
+          - `scheduler`. A python package/CLI tool for scheduling job submission to our IBM HPC. Abstracted
+          technical details from team members with minimal programming experience.
+    - role: Software Engineering Intern
+      time: 2016 - 2020
+      company: Quandary Escape Rooms, CA
+      details: |
+        _Stack_: C++, C#, Python
 
-          _Notable Projects_
-            - `hint puncher`. Named for the punchy sound that customers had come to associate with receiving hints, hint puncher was an all-inclusive piece of game management software written in C#. Hint puncher replaced a previous combination of 4 paid pieces of software, allowed employees to manage multiple games at once, and provided an exact view of what customers saw in the room for ultimate control. Hint puncher remained in use for 5 years, dramatically increasing employee productivity and customer satisfaction while decreasing onboarding time.
-            - `the trunk`. An all-in-one escape room that fit inside of an antique trunk and was used to promote the business at street fairs and other events. More than 8 microcontrollers were included throughout the trunk, powering everything from LED lightstrips, to motors, to pressure sensors and more. The trunk was wildly popular at every event it appeared at.
+        Over the three years I was an intern at Quandary, I got to get my hands dirty writing
+        customer-facing code. Initially brought on to help write C++ programs for the microcontrollers that served as the core escape room experience, my responsibilities expanded to include writing employee facing software and automating arduous business
+        tasks.
+
+        _Notable Projects_
+          - `hint puncher`. Named for the punchy sound that customers had come to associate with receiving hints, hint puncher was an all-inclusive piece of game management software written in C#. Hint puncher replaced a previous combination of 4 paid pieces of software, allowed employees to manage multiple games at once, and provided an exact view of what customers saw in the room for ultimate control. Hint puncher remained in use for 5 years, dramatically increasing employee productivity and customer satisfaction while decreasing onboarding time.
+          - `the trunk`. An all-in-one escape room that fit inside of an antique trunk and was used to promote the business at street fairs and other events. More than 8 microcontrollers were included throughout the trunk, powering everything from LED lightstrips, to motors, to pressure sensors and more. The trunk was wildly popular at every event it appeared at.
 
 # certifications:
 #       title: Certifications
@@ -165,22 +176,21 @@ experiences:
 #             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      Here's a selection of some of my favorite personal projects.
-    assignments:
-      - title: Kobo Annotation Export
-        link: "https://github.com/adelynflowers/KoboAnnotationExportTool"
-        tagline: "A desktop app that allows one click importing of highlights from Kobo eReaders. Manage your highlights in one place with notes, search, sorting, tagging, and CSV export. Built with C++ and Qt for Windows and Linux."
+  title: Projects
+  intro: >
+    Here's a selection of some of my favorite personal projects.
+  assignments:
+    - title: Kobo Annotation Export
+      link: "https://github.com/adelynflowers/KoboAnnotationExportTool"
+      tagline: "A desktop app that allows one click importing of highlights from Kobo eReaders. Manage your highlights in one place with notes, search, sorting, tagging, and CSV export. Built with C++ and Qt for Windows and Linux."
 
-      - title: DanceDanceTogether
-        link: "https://github.com/adelynflowers/dancedancetogether"
-        tagline: "A Golang app that simplifies playing Project Outfox with 2 dance pads on the steam deck. A drop-in replacement for the outfox launcher that allows you to choose P1 and dynamically remap controls based on system state."
+    - title: DanceDanceTogether
+      link: "https://github.com/adelynflowers/dancedancetogether"
+      tagline: "A Golang app that simplifies playing Project Outfox with 2 dance pads on the steam deck. A drop-in replacement for the outfox launcher that allows you to choose P1 and dynamically remap controls based on system state."
 
-      - title: Jebird(WIP)
-        link: "https://github.com/adelynflowers/jebird"
-        tagline: "A Java wrapper for the eBird API."
-
+    - title: Jebird(WIP)
+      link: "https://github.com/adelynflowers/jebird"
+      tagline: "A Java wrapper for the eBird API."
 # oss:
 #     title: OSS Contributions
 #     intro: >
